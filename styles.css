@@ -1,0 +1,446 @@
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    
+}
+
+#white {
+    background-color: white;
+
+}
+
+.box1 {
+    background-color:white;
+    width:90%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+#red {
+    color:rgb(243, 85, 85);
+    font-weight: bold;
+}
+.box1 h1 {
+        font-size: 50px;
+        font-weight:500;
+        top: 17px;
+        line-height: 2px;
+        position:relative;
+        }
+
+.box1 h6 {
+    font-size: 20px;
+    font-weight:normal;
+    line-height: 2px;
+}
+.box1 ul {
+    display:flex;
+    
+}
+.box1 li, ul a {
+    list-style: none;
+    text-decoration: none;
+    padding:30px 15px;
+    font-size:22px;
+    }
+
+.about {
+    border-radius: 50%;
+    background-color:rgb(243, 85, 85);
+    color:white;
+}
+.about:hover {
+    color: black;
+}
+
+ul a:hover {
+    color:white;
+    border-radius: 50%;
+    background-color:rgb(243, 85, 85) ;
+}
+#banner {
+    background-image:url("katakimage/image.jpg");
+    padding-top: 40px;
+}
+.box2 {
+     width:90%;
+    margin:auto;
+    }
+.picture {
+    display: flex;
+}
+.picture img {
+    max-width:100%;
+    max-height:400px;
+}
+
+
+.content {
+    width: 90%;
+    margin:auto;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contentleft h1::first-letter {
+    color:rgb(203, 27, 27) ;
+    font-weight: bold;
+}
+.contentleft h1 {
+    color:white;
+    font-size: 50px;
+    font-weight: 500;
+ }
+.contentleft {
+    width:20%;
+    padding-top: 10px;
+    }
+.contentmid {
+    font-size:40px;
+    font-weight:lighter;
+    color:rgb(33, 35, 35);
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.contentright {
+    color:rgb(142, 146, 145);
+    font-size: 16px;
+    width:75%;
+    padding-top:40px ;
+  }
+.content a {
+    text-decoration: none;
+    color:rgb(203, 27, 27) ;
+    font-weight: bold;
+}
+
+#article {
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.box3 {
+    width:90%;
+    margin:auto;
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    }
+.main button {
+  background-color:rgb(229, 71, 71); 
+  color: white;
+  height:35px;
+  width:110px;
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 10px;
+}
+ .main {
+    width:25%;
+    padding:0 15px;
+    color:white;
+    }
+.main h4,img {
+    padding-top: 5px;
+    }
+.main h1 {
+    font-size: 30px;
+}
+.main p {
+   color: rgb(130, 134, 133);
+   position: relative;
+    bottom:20px;
+   }
+.main:first-child {
+    padding-left: 0;
+}
+.main:last-child {
+    padding-right: 0;
+}
+
+#photoshoot {
+    background-image:url("katakimage/image.jpg");
+    padding-top:10px;
+    padding-bottom: 60px;
+}
+.box4 {
+    width:90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutme {
+    width:26%;
+}
+
+.aboutme h1 {
+    color:white;
+    font-size: 30px;
+
+}
+
+.mid {
+    text-align: left;
+    color:rgb(244, 240, 240);
+    padding-top:70px;
+    font-size: 15px;
+    padding-right: 10px;
+    width:20%;
+}
+.mid p {
+   color:rgb(142, 146, 145);
+   font-weight:700; 
+}
+
+.line{
+    width:98%; height:1px; background-color: rgb(78, 73, 73);
+}
+.menu {
+    display: flex;
+    
+    color:rgb(207, 76, 76);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    padding-top: 15px;
+}
+
+.menu .column2 {
+    padding-left: 40px;
+}
+.menu div div::before {
+    content:">";
+    padding-right:5px;
+    color:rgb(207, 76, 76);
+}
+
+.latestphoto {
+    width:54%;
+    padding-left: 25px;
+}
+.latestphoto h1 {
+    padding-left: 30px;
+    color:white;
+    font-size: 30px;
+    line-height: 2px;
+    padding-top: 20px;
+}
+.row1, .row2, .row3 {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding-right: 0;
+    padding-top: 20px;
+}
+
+.row1 img {
+    width:25%;
+    height:100px;
+    padding-left: 30px;
+}
+.row2 img {
+    width:25%;
+    height:100px;
+    padding-left: 30px;
+}
+.row3 img {
+    width:25%;
+    height:100px;
+    padding-left: 30px;
+}
+
+#footer {
+    background-color: white;
+    padding:35px 0;
+} 
+
+.box5 {
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+}
+.box5 h4 {
+    font-weight: lighter;
+}
+
+ .fa-brands {
+    color:white;
+    background-color:rgb(243, 85, 85);
+    font-size:larger;
+    padding:10px;
+    border-radius: 50%;
+    }
+ i {
+    margin-top: 10px;
+}
+    
+@media (min-width: 501px) and (max-width: 768px) {
+    body {
+        margin:0;
+        max-width: 768px;
+    }
+    
+    
+    .contentright {
+      width:90%;
+        padding: 0;
+    }
+    .contentleft {
+        width:100%;
+        line-height:2px ;
+        padding: 0;
+      }
+    .contentmid {
+        font-size: 50px;
+        line-height: 1px;
+    }
+
+    .main {
+        width:50%;
+    }
+     
+   .aboutme {
+       width:50%;
+       }
+    .aboutme h1 {
+        padding-left:35px;
+    }
+   .mid {
+       width:50%;
+   }
+   
+    .latestphoto {
+       width:100%;
+       padding-right: 50px;
+   }
+.latestphoto h1 {
+    text-align: center;
+}
+.box1 li, ul a {
+    padding:35px 5px;
+    font-size:22px;
+    }
+}
+   
+ @media (max-width:500px) {
+     body {
+         margin:0;
+         max-width:500px;
+     }
+     .box1 li, ul a {
+        padding:15px 5px;
+        text-align:center;
+     }
+     .box1 ul{
+        width:90%;
+         flex-direction: column;
+     }
+     .box1  {
+        width:90%;
+         flex-direction: column;
+     }
+
+     .box1 h1,h6 {
+         text-align: center;
+     }
+
+     .contentright {
+        width:94%;
+          padding: 0;
+          text-align: justify;
+      }
+      .contentleft {
+          width:100%;
+          line-height:5px ;
+          padding: 0;
+        }
+      .contentmid {
+          font-size: 30px;
+          line-height: 1px;
+          padding: 0;
+      }
+
+      .main {
+        width:85%;
+        padding:0;
+        margin:auto;
+    }
+
+    .aboutme {
+        width:100%;
+        margin:auto;
+        text-align: center;
+        }
+     
+        .mid {
+            width:85%;
+            margin:auto;
+            text-align: justify;
+            padding-top: 25px;
+        }
+
+        .menu {
+            justify-content: center;
+        }
+
+        .latestphoto {
+            width:100%;
+            margin: auto;
+            padding-left: 0;
+            padding-right: 30px;
+            text-align: center;
+        }
+        #footer {
+            padding:0;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+  
+
+    
+
+
+    
+    
+
+
+
+
+
+
