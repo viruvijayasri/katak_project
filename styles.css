@@ -356,22 +356,28 @@ ul a:hover {
          text-align: center;
      }
 
+     .box2 {
+        width:80%;
+       margin:auto;
+       }
+
      .contentright {
-        width:94%;
-          padding: 0;
-          text-align: justify;
+        width:85%;
+        margin:auto;
+        padding: 0;
+        text-align:left;
       }
       .contentleft {
           width:100%;
-          line-height:5px ;
-          padding: 0;
+          margin:auto;
+          line-height:5px;
+          text-align:center;
+          }
+        .contentmid {
+            
+            display:none ;
         }
-      .contentmid {
-          font-size: 30px;
-          line-height: 1px;
-          padding: 0;
-      }
-
+          
       .main {
         width:85%;
         padding:0;
@@ -382,6 +388,7 @@ ul a:hover {
         width:100%;
         margin:auto;
         text-align: center;
+        padding: 0;
         }
      
         .mid {
