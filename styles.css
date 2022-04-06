@@ -47,6 +47,7 @@ body {
     text-decoration: none;
     padding:30px 15px;
     font-size:22px;
+    color: black;
     }
 
 .about {
@@ -340,6 +341,7 @@ ul a:hover {
      .box1 li, ul a {
         padding:15px 5px;
         text-align:center;
+        
      }
      .box1 ul{
         width:90%;
