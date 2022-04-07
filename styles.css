@@ -7,7 +7,9 @@ body {
     margin:0;
     
 }
-
+img {
+    max-width: 100%;
+}
 #white {
     background-color: white;
 
@@ -99,22 +101,26 @@ ul a:hover {
  }
 .contentleft {
     width:20%;
-    padding-top: 10px;
     }
+.rightmid {
+    width:80%;
+    display: flex;
+}
 .contentmid {
-    font-size:40px;
+    font-size: 35px;
     font-weight:lighter;
-    color:rgb(33, 35, 35);
-    padding-right: 20px;
-    padding-bottom: 10px;
+    color:rgb(73, 80, 80);
+    padding-left: 15px;
 }
 
 .contentright {
     color:rgb(142, 146, 145);
     font-size: 16px;
-    width:75%;
-    padding-top:40px ;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-left: 10px;
   }
+
 .content a {
     text-decoration: none;
     color:rgb(203, 27, 27) ;
@@ -178,9 +184,11 @@ ul a:hover {
     margin:auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 .aboutme {
-    width:26%;
+    width:25%;
+    margin: auto;
 }
 
 .aboutme h1 {
@@ -190,12 +198,13 @@ ul a:hover {
 }
 
 .mid {
-    text-align: left;
+    text-align:left;
     color:rgb(244, 240, 240);
     padding-top:70px;
-    font-size: 15px;
-    padding-right: 10px;
-    width:20%;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 40px;
+    width:25%;
 }
 .mid p {
    color:rgb(142, 146, 145);
@@ -207,16 +216,15 @@ ul a:hover {
 }
 .menu {
     display: flex;
-    
     color:rgb(207, 76, 76);
     font-weight: 700;
     font-size: 15px;
-    line-height: 30px;
-    padding-top: 15px;
+    line-height: 25px;
+    padding-top: 5px;
 }
 
 .menu .column2 {
-    padding-left: 40px;
+    padding-left: 70px;
 }
 .menu div div::before {
     content:">";
@@ -225,14 +233,13 @@ ul a:hover {
 }
 
 .latestphoto {
-    width:54%;
-    padding-left: 25px;
+    width:50%;
 }
 .latestphoto h1 {
-    padding-left: 30px;
+    padding-left: 15px;
     color:white;
     font-size: 30px;
-    line-height: 2px;
+    line-height: 5px;
     padding-top: 20px;
 }
 .row1, .row2, .row3 {
@@ -240,23 +247,23 @@ ul a:hover {
     flex-wrap: wrap;
     width:100%;
     padding-right: 0;
-    padding-top: 20px;
+    padding-top: 12px;
 }
 
 .row1 img {
     width:25%;
     height:100px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .row2 img {
     width:25%;
     height:100px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .row3 img {
     width:25%;
     height:100px;
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 #footer {
@@ -292,48 +299,66 @@ ul a:hover {
     }
     
     
-    .contentright {
-      width:90%;
-        padding: 0;
-    }
     .contentleft {
         width:100%;
-        line-height:2px ;
-        padding: 0;
-      }
-    .contentmid {
-        font-size: 50px;
-        line-height: 1px;
+        margin: auto;
+        line-height: 10px;
     }
-
+    .rightmid {
+        width:100%;
+        margin: auto;
+        text-align:left;
+        position: relative;
+        bottom:30px ;
+    }
+    .contentmid {
+        display:none;
+    }
     .main {
         width:50%;
+        padding:3px;
+    }
+
+    .aboutme {
+        width:50%;
+        margin:auto;
+        }
+    .aboutme img {
+        max-width:100%;
     }
      
-   .aboutme {
-       width:50%;
-       }
-    .aboutme h1 {
-        padding-left:35px;
-    }
-   .mid {
-       width:50%;
-   }
+        .mid {
+            width:50%;
+            margin:auto;
+        
+        }
+
+        .menu {
+            justify-content: center;
+        }
+
+        .latestphoto {
+            width:100%;
+            padding-right: 30px;
+            text-align:center;
+        }
+        .latestphoto h1 {
+            text-align:center ;
+        }
+        #footer {
+            padding:0;
+            width:100%;
+            margin: auto;
+        }
+     
    
-    .latestphoto {
-       width:100%;
-       padding-right: 50px;
-   }
-.latestphoto h1 {
-    text-align: center;
-}
 .box1 li, ul a {
     padding:35px 5px;
     font-size:22px;
     }
 }
    
- @media (max-width:500px) {
+ @media only screen and (max-width:500px) {
      body {
          margin:0;
          max-width:500px;
@@ -350,6 +375,7 @@ ul a:hover {
      .box1  {
         width:90%;
          flex-direction: column;
+
      }
 
      .box1 h1,h6 {
@@ -359,43 +385,47 @@ ul a:hover {
      .box2 {
         width:80%;
        margin:auto;
+       
        }
 
-     .contentright {
-        width:85%;
-        margin:auto;
-        padding: 0;
-        text-align:center;
-      }
-      .contentleft {
-          width:100%;
-          margin:auto;
-          line-height:5px;
-          text-align:center;
-          }
-        .contentmid {
-            
-            display:none ;
-        }
-          
-      .main {
-        width:85%;
-        padding:0;
-        margin:auto;
+    .contentleft {
+        width:90%;
+        margin: auto;
+        line-height: 10px;
+    }
+    .rightmid {
+        width:95%;
+        margin: auto;
+        text-align:left;
+        position: relative;
+        bottom:30px ;
+    }
+    .contentmid {
+        display:none;
+    }
+    
+    .main {
+    width:90%;
+    padding:0;
+    margin:auto;
     }
 
     .aboutme {
-        width:100%;
+        width:90%;
         margin:auto;
-        text-align: center;
+        text-align:center;
         padding: 0;
         }
+    .aboutme img {
+        width:100%;
+    }
      
         .mid {
-            width:85%;
+            width:90%;
             margin:auto;
-            text-align: justify;
-            padding-top: 25px;
+            text-align:justify;
+            padding-top: 40px;
+            padding:0;
         }
 
         .menu {
@@ -405,12 +435,16 @@ ul a:hover {
         .latestphoto {
             width:100%;
             margin: auto;
-            padding-left: 0;
-            padding-right: 30px;
-            text-align: center;
+            padding-right: 20px;
+            text-align: justify;
+        }
+        .latestphoto h1 {
+            text-align:center ;
         }
         #footer {
             padding:0;
+            width:90%;
+            margin: auto;
         }
     }
 
