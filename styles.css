@@ -291,7 +291,9 @@ ul a:hover {
  i {
     margin-top: 10px;
 }
-    
+  
+
+
 @media (min-width: 501px) and (max-width: 768px) {
     body {
         margin:0;
